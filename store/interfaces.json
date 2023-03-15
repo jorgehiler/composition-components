@@ -5,10 +5,12 @@
   },
 
   "solid-border": {
-    "component": "SolidBoder"
+    "component": "SolidBoder",
+    "composition": "children"
   },
 
   "dotted-border": {
-    "component": "DottedBorder"
+    "component": "DottedBorder",
+    "composition": "children"
   }
 }
