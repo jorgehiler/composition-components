@@ -1,14 +1,17 @@
 {
   "composition-component": {
-    "component": "Composition",
-    "composition": "children"
+    "allowed": ["solid-border", "dotted-border"],
+    "composition": "children",
+    "component": "Composition"
   },
 
   "solid-border": {
-    "component": "SolidBoder"
+    "component": "SolidBorder",
+    "composition": "children"
   },
 
   "dotted-border": {
-    "component": "DottedBorder"
+    "component": "DottedBorder",
+    "composition": "children"
   }
 }
