@@ -5,9 +5,10 @@ import { ExtensionPoint } from 'vtex.render-runtime'
 type Props = {
   title: string
   children: React.ReactNode
+  Bottom: any
 }
 
-function Composition({ title, children }: Props) {
+function Composition({ title, children, Bottom }: Props) {
   const { handles } = useCssHandles(['ContainerComposition'])
 
   return (
@@ -20,6 +21,7 @@ function Composition({ title, children }: Props) {
         <p className="b">Wrapper de border punteado</p>
         <ExtensionPoint id="dotted-border" />
       </div>
+      <Bottom />
     </div>
   )
 }
