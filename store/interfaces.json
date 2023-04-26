@@ -13,5 +13,11 @@
   "dotted-border": {
     "component": "DottedBorder",
     "composition": "children"
+  },
+
+  "custom-block": {
+    "allowed": ["rich-text"],
+    "component": "CustomBlocks",
+    "composition": "children"
   }
 }

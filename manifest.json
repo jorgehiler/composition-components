@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "vtex.css-handles": "1.x",
-    "vtex.store-image": "0.x"
+    "vtex.store-image": "0.x",
+    "vtex.product-summary": "2.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.rich-text": "0.x"
   },
   "registries": ["smartcheckout"],
   "policies": [],
