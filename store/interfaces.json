@@ -19,5 +19,9 @@
     "allowed": ["rich-text"],
     "component": "CustomBlocks",
     "composition": "children"
+  },
+
+  "wrapper-context-info": {
+    "component": "InfoContextContainer"
   }
 }
